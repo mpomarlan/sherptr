@@ -1,0 +1,27 @@
+<package>
+  <name>sherptr</name>
+  <version>0.0.1</version>
+  <description>Package stack for a simple demo of plan transformations.</description>
+  <author email="mpomarlan@yahoo.co.uk">Mihai Pomarlan</author>
+  <maintainer email="mpomarlan@yahoo.co.uk">Mihai Pomarlan</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://cram-system.org</url>
+  <url type="bugtracker">https://github.com/mpomarlan/sherptr/issues</url>
+  <url type="repository">https://github.com/mpomarlan/sherptr</url>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>sherplanh</run_depend>
+  <run_depend>sherptr_msgs</run_depend>
+  <run_depend>sherptr_demo</run_depend>
+  <run_depend>sherptr_envint</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+
+</package>

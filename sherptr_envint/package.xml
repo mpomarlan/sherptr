@@ -1,0 +1,27 @@
+<package>
+  <name>sherptr_envint</name>
+  <version>0.0.1</version>
+  <description>Interface between the sherptr nodes and the environment modelling system (simulator).</description>
+  <author email="mpomarlan@yahoo.co.uk">Mihai Pomarlan</author>
+  <maintainer email="mpomarlan@yahoo.co.uk">Mihai Pomarlan</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://cram-system.org</url>
+  <url type="bugtracker">https://github.com/mpomarlan/sherptr/issues</url>
+  <url type="repository">https://github.com/mpomarlan/sherptr</url>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend> 
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>sherptr_msgs</build_depend>
+  <build_depend>actionlib</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>sherptr_msgs</run_depend>
+  <run_depend>actionlib</run_depend>
+
+  <!-- Dependencies needed only for running tests. -->
+
+</package>
